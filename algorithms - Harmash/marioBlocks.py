@@ -13,5 +13,40 @@ for i in range(1, n+1):
     print("#" * i, end="")
     print(" ")
 
+#simple decreasing block
+for i in range(n, 0, -1):
+    print("#" * i)
 
+#inverted decreasing block
+for i in range(n, 0, -1):
+    print(" " * (n-i), end="")
+    print("#" * i, end="")
+    print(" ")
 
+#combined increasing block
+for i in range(1, n+1):
+    print(" " * (n-i), end="")
+    print("#" * i, end="")
+    print("  ", end="")
+    print("#" * i)
+
+#combined decreasing block
+for i in range(n, 0, -1):
+    print(" " * (n-i), end="")
+    print("#" * i, end="")
+    print("  ", end="")
+    print("#" * i)
+
+#combined decreasing block
+for i in range(n, 0, -1):
+    print(" " * (n-i), end="")
+    print("#" * i, end="")
+    print("  ", end="")
+    print("#" * i)
+
+#combined increasing block
+for i in range(1, n+1):
+    print(" " * (n-i), end="")
+    print("#" * i, end="")
+    print("  ", end="")
+    print("#" * i)
