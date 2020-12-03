@@ -1,1 +1,1 @@
-# integration_vs_git
+# integration_pycharm_with_github
